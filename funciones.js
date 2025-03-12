@@ -38,5 +38,5 @@ function aplicarDescuento() {
     }
 
     let nuevoTotal = total - descuento;
-    document.getElementsByName("caja7")[0].value = nuevoTotal.toFixed(2);
+    document.getElementsByName("caja9")[0].value = nuevoTotal.toFixed(2);
 }
